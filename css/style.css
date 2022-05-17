@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background:linear-gradient(+9deg,#f43b3b,#ff0000,#ffffff);
+    width: 100%;
+    height: 7rem;
+    justify-content:center;
+    border-radius: 5px ;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffffdb;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+    margin-left: 8rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-weight: bold;
+}
+
+body{
+    background: url(../images/tienda.jfif);
+    display: flex;
+    background-attachment: fixed;
+    margin: 2rem;
+}
+
+main{
+    width: 1024px;
+    background: #ffffffce;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+nav{
+    margin-top: 30px;
+    width: 40%;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffffdb;
+    margin: auto;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    color: #000000;
+    background: #ffffff90;
+}
+
+section{
+    padding: 41px;
+}
+
+.moto5{
+    width: 359px;
+    float: right;
+    margin-top: 8rem;
+    margin-right: 1rem;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 4px 1px 4px #faaaaa;
+}
+
+.texto-lateral{
+    float: left;
+    width: 51%;
+    margin-top: 96px;
+    margin-left: -17rem;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.formulario{
+    border: 2px solid #ff0000;
+    margin: 50px 20px 50px 20px;
+    border-radius: 10px;
+}
+
+.lateral-texto{
+    width: 103%;
+    margin-top: 35rem;
+    margin-right: -22rem;;
+    padding: 1rem;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.moto9{
+    width: 50%;
+    margin-top: 2rem;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 14rem;
+    box-shadow: 1px 4px 1px 4px #faaaaa;
+}
+
+.clear{
+    clear: both;
+}
+
+.moto1{
+    float: right;
+    width: 43%;
+    margin: 1rem;
+    margin-right: 3rem;
+    border: 2px solid #ff0000;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 1px 4px #faaaaa;
+}
+
+.moto2{
+    float: right;
+    width: 43%;
+    margin: 0.5rem;  
+    margin-right: 3rem;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 4px 1px 4px #faaaaa;
+}
+
+.subtitulo{
+    width: 90px;
+    float: left;
+    height: 71px;
+    margin-top: -14px;
+    padding: 3px;
+    margin-right: 0.5rem;
+}
+
+.logo3{
+    width: 142px;
+    float: left;
+    height: 92px;
+    margin-top: -102px;
+    padding: 10px;
+}
+
+footer {
+    background:linear-gradient(+9deg,#f43b3b,#ff0000,#ffffff);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#mensaje{
+    border-radius: 5px;
+    width: 10vw;
+    height: 6vh;
+}
+
+.boton{
+    box-shadow: 1px 1px 1px 1px #faaaaa;
+}

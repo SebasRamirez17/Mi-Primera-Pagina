@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario De Ducati</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/casa1.png" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="formulario.html">Formulario</a></li>
+                    <li><a href="https://www.ducaticolombia.co/">Motos</a></li>
+                    <li><a href="https://www.google.com/maps/dir//tiendas+ducati/@4.6949715,-74.1023942,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x8e3f9bc4eaa1242b:0x211f3fa2ffac41a8!2m2!1d-74.0323536!2d4.694975">Tiendas</a></li>
+                </ul>
+            </nav>
+            <header>
+                <h1>Ducati</h1>
+                <img class="logo3" src="images/logo3.png" alt="logo3">
+            </header>
+            <section class="formulario">
+                <form>
+                    <img class="moto1" src="images/moto2.jfif" alt="moto">
+                    <img class="moto2" src="images/2moto.jpg" alt="moto">
+                    <br>
+                <label for="nombre">Nombre: </label><br>
+                <input class="boton" type="text" class="boton"id="nombre" placeholder="Escriba Su Nombre" required><br>
+                <label for="apellido">Apellido: *</label><br>
+                <input class="boton" type="text" id="apellido" placeholder="Escriba Su Apellido" maxlength="25" minlength="7" required><br>
+                <label for="edad">Edad:</label><br>
+                <input class="boton" type="number" id="edad" placeholder="Escriba Su Edad" required><br>
+                <label for="email">Correo Electronico: *</label><br>
+                <input class="boton" type="email" id="email" placeholder="Escriba Su Correo Electrónico" required><br>
+                <label for="contraseña">Contraseña: *</label><br>
+                <input class="boton" type="password" id="password" placeholder="Escriba Su Contraseña" required minlength="8" required><br>
+                <label for="tel">Teléfono: *</label><br>
+                <input class="boton" type="tel" id="tel" placeholder="Celular" required><br>
+                <label for="date">Fecha De Compra: *</label><br>
+                <input class="boton" type="date" id="date" required><br>
+                <div>
+                    <br>
+                    <label for="metodo" name="metodo"> Seleccione Metodo De Entrega: </label><br>
+                    <input type="radio" name="conect" id="tienda">
+                    <label for="tienda">Tienda</label>
+                    <input type="radio" name="conect" id="presencial">
+                    <label for="presencial">Presencial</label>
+                </div><br>
+                <select class="boton" name="ciudad">
+                    <option value="armenia">Bogotá</option>
+                    <option value="manizales">Medellín</option>
+                </select><br>
+                <br>
+                <label for="mensaje">Adiciones A La Moto: </label><br>
+                <textarea class="boton" id="mensaje" cols="20" rows="5"></textarea><br>
+                <br>
+                <input class="boton" type="reset" value="borrar">
+                <input class="boton" type="submit" value="Enviar">
+            </form>
+    </section>
+    <footer>Espero Te Guste Tú Ducati - Sebastián Ramírez</footer>
+</main>
+</body>
+</html>
